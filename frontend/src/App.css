@@ -1,0 +1,58 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  background: #ffffff;
+}
+
+.btn-primary {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px !important;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.btn-primary:hover {
+  background-color: #333;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid #ccc;
+  padding: 8px 16px;
+  border-radius: 8px !important;
+  cursor: pointer;
+}
+
+.product-card {
+  border: 1px solid #eee;
+  border-radius: 12px !important;
+  padding: 16px;
+  transition: 0.2s;
+  background: #fff;
+}
+.product-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.form-control {
+  border-radius: 8px !important;
+  border: 1px solid #ccc;
+  padding: 8px;
+  width: 100%;
+}

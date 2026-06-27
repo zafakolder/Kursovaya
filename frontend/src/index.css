@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+  color: #222;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Все элементы с округлёнными углами */
+input, textarea, select, button, .product-card, 
+header, footer, .btn-primary, .btn-outline, .form-control {
+  border-radius: 8px !important;
+}
+
+button, .btn-primary, .btn-outline {
+  border-radius: 8px;
+}
+
+header {
+  border-radius: 0 0 12px 12px;
+}
+
+footer {
+  border-radius: 12px 12px 0 0;
+}
